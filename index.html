@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pepsi</title>
+</head>
+<body>
+    <section class="sec">
+        <header>
+            <a href="#"><img src="./imag/logo.png" class="logo"></a>
+            <div class="toggleMenu" onclick="menuToggle();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">what's new</a></li>
+                <li><a href="#">newsletter</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>    
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>That's what <br><span>I like</span></h2>
+                <p>The estimated total pay for a Front End Developer is $101,872 per ye
+                    ar in the United States area, with an average salary of $82,500 
+                    per year. These numbers represent the median, which is the midpoi
+                    nt of the ranges from our proprietary Total Pay Estimate model and 
+                    based on salaries collected from our users. The estimated additional
+                     pay is $19,372 per year. Additional pay could include cash bonus
+                     , commission, tips, and profit sharing. The "Most Likely Range" rep
+                     resents values that exist within the 25th and 75th percentile of all pa
+                     y data available for this role.</p>
+                <a href="#">view All products</a>
+            </div>
+            <div class="imgBox">
+                <img src="imag/pepsi001.png" class="pepsi">
+            </div>
+        </div>
+        <ul class="thump">
+            <li><img src="imag/pepsi001.png" onclick="imgSlider('imag/pepsi001.png'); changeBgColor('#0062be')"></li>
+            <li><img src="imag/pepsi002.png" onclick="imgSlider('imag/pepsi002.png'); changeBgColor('#e60c2c')"></li>
+            <li><img src="imag/pepsi003.png" onclick="imgSlider('imag/pepsi003.png'); changeBgColor('#1e1e1e')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="imag/facebook.png" ></a></li>
+            <li><a href="#"><img src="imag/twitter.png" ></a></li>
+            <li><a href="#"><img src="imag/instagram.png" ></a></li>
+        </ul>
+    </section>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
